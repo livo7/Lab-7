@@ -3,7 +3,7 @@ import requests
 
 
 city_name = "Moscow"
-key = ""
+key = "23669f1de3fdef18a478b8fad43d9be7"
 response = requests.post(
     f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={key}"
 )
